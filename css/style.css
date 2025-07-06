@@ -412,16 +412,38 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .schedule-page .full-bleed3{
     background-image: url('../img/2014_05_0135_3_ret-700x500.webp');
 }
-.full-bleed1{
+/*.full-bleed1{
     background-image: url('../img/banner-citylights2-1600x1120.webp');
     background-position: center top;
-    /*background-position: center 55px;*/
+}*/
+@media(min-width: 421px){
+    .full-bleed1{
+        background-image: url('../img/banner-citylights2-1600x1120.webp');
+        background-position: center top;
+        /*background-position: center 55px;*/
+    }
+    .full-bleed2{
+        background-image: url('../img/Home_2-1600x1066.webp');
+        background-position: center center;
+        /*background-position: center 20px;*/
+    }
 }
-.full-bleed2{
+@media(max-width: 420px){
+    .full-bleed1{
+        background-image: url('../img/banner-citylights2-640x448.webp');
+        background-position: center top;
+        /*background-position: center 55px;*/
+    }
+    .full-bleed2{
+        background-image: url('../img/Home_2-640x426.webp');
+        background-position: center center;
+        /*background-position: center 20px;*/
+    }
+}
+/*.full-bleed2{
     background-image: url('../img/Home_2-1600x1066.webp');
     background-position: center center;
-    /*background-position: center 20px;*/
-}
+}*/
 .full-bleed3{
     background-image: url('../img/banner-citylights1-1-1600x1120.webp');
     background-position: center top;
@@ -836,6 +858,8 @@ body.page-template-page-home.biogr-page .burger-icon span {
 }
 */
 
+
+
 @media(max-width: 1024px) and (max-height: 1366px){
     .royalSlider {
        height: 62.5vh;
@@ -906,7 +930,3 @@ body.page-template-page-home.biogr-page .burger-icon span {
        height: 97vh;
     }
 }
-
-
-
-
